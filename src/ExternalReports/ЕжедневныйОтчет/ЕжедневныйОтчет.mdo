@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf5a7f28-07c9-4cdc-bb4f-b7d735366e97">
+  <producedTypes>
+    <objectType typeId="6e186496-d541-43c2-a346-1bd8e988df1b" valueTypeId="852be76b-00ca-441d-9ff1-9a86d76b30c8"/>
+  </producedTypes>
+  <name>ЕжедневныйОтчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ежедневный отчет</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="5bcc972e-0f1a-41e6-ba44-6d77deac3777"/>
+  <defaultForm>ExternalReport.ЕжедневныйОтчет.Form.ФормаОтчета</defaultForm>
+  <auxiliaryForm>ExternalReport.ЕжедневныйОтчет.Form.ФормаОтчетаУправляемая</auxiliaryForm>
+  <mainDataCompositionSchema>ExternalReport.ЕжедневныйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="d000acb9-0d90-42f0-8ef1-59911751d145">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="16af80a9-00e3-4802-b721-bdbc0580f69e">
+    <name>ФормаОтчетаУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="606a4bfa-b720-4c2e-a930-47dc7f4dc386">
+    <name>БыстрыйВыборСтандартногоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Быстрый выбор стандартного периода</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b78dbce7-6fda-4d42-84f1-18748009f42b">
+    <name>МакетЗаголовкаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заголовка отчета</value>
+    </synonym>
+  </templates>
+  <templates uuid="3b3b4e58-49e7-4474-ada4-f9ea0ed952cf">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>
