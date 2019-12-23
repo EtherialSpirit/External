@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2999fd64-d2f0-4f50-8cbb-94f06c392dd3">
+  <producedTypes>
+    <objectType typeId="2b394671-f11f-4600-98cd-47508ccb9f2d" valueTypeId="a29c0319-9597-41ef-860d-0a88f39c984b"/>
+  </producedTypes>
+  <name>ЗаказНаряд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ наряд</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="b03b3718-b317-4350-8745-22d0c3f1c3d8"/>
+  <defaultForm>ExternalDataProcessor.ЗаказНаряд.Form.Форма</defaultForm>
+  <attributes uuid="bbb1ea38-d712-4e20-909f-90aa0358ae09">
+    <name>СсылкаНаДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на документ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="244fddcd-917c-414e-9f30-12db21ad7813">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6746dcea-b869-49e6-bccf-e78ee8142146">
+    <name>ЗаказНаряд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ наряд</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>
