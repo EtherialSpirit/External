@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db654577-6c5b-4f5e-b88e-243ada89c3a7">
+  <producedTypes>
+    <objectType typeId="0d600b3b-bced-4a87-aca1-fa0838035b73" valueTypeId="9c7425c3-1c05-4c14-88c3-6a1f7b9f4f60"/>
+  </producedTypes>
+  <name>ТабельУчетаРаботыСпецтехники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Табель учета работы спецтехники</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="73139d39-d71f-4531-8655-9cb6851827bc"/>
+  <mainDataCompositionSchema>ExternalReport.ТабельУчетаРаботыСпецтехники.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="86a86d9b-4257-4bed-a502-c5dc76031f24">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>
